@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trowers Modern Housing & Renovations</title>
+    <link rel="stylesheet" href="/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+        emailjs.init("ax5_Vff_3qAnvkHTM");
+      })();
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">TMHR Construction Limited</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu" id="mobileMenu">☰</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>Building Dreams Through Construction</h1>
+          <p>Excellence in Construction</p>
+          <a href="#contact" class="cta-button">Get a Quote</a>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <img src="pics/p2.jpg" alt="Residential Construction">
+            <h3>Residential Construction</h3>
+            <p>Custom homes built to your specifications with premium materials and craftsmanship.</p>
+          </div>
+          <div class="service-card">
+            <img src="pics/p3.jpg" alt="Commercial Projects">
+            <h3>Drywall Projects</h3>
+            <p>Expert drywall installation and finishing, delivering durable and flawless results for residential and commercial spaces.</p>
+          </div>
+          <div class="service-card">
+            <img src="pics/p4.jpg" alt="Renovations">
+            <h3>Renovations</h3>
+            <p>Transform your existing space with our expert renovation services.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-slider" id="projectSlider">
+          <div class="project-slide">
+            <img src="pics/featured_1.jpg" alt="Project 1">
+            <div class="project-info">
+              <h3>Countryside Residence</h3>
+              <p>A spacious rural residence featuring ? rooms, offering comfort and tranquility in the heart of St. Elizabeth</p>
+            </div>
+          </div>
+          <div class="project-slide">
+            <img src="pics/featured_2.jpg" alt="Project 2">
+            <div class="project-info">
+              <h3>Urban Renovation</h3>
+              <p>Transforming modern living spaces with expert renovations, delivering sleek and functional designs in the heart of Kingston</p>
+            </div>
+          </div>
+          <div class="project-slide">
+            <img src="pics/featured_3.jpg" alt="Project 3">
+            <div class="project-info">
+              <h3>Glamorous Interior</h3>
+              <p>Featuring a sleek, modern interior designed for both comfort and functionality.</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button id="prevSlide">←</button>
+          <button id="nextSlide">→</button>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Phone Number">
+            <textarea name="message" placeholder="Tell us about your project" required></textarea>
+            <button type="submit" class="cta-button">
+              <span class="button-text">Send Message</span>
+              <span class="loading-spinner"></span>
+            </button>
+          </form>
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>📍 PRIVATE - Contact Us</p>
+            <p>📞 (876)</p>
+            <p>✉️ Trowersrenovations@gmail.com</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Trowers Modern Houses & Renovations</h4>
+          <p>Building Dreams Through Construction.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Working Hours</h4>
+          <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+          <p>Saturday: 9:00 AM - 2:00 PM</p>
+          <p>Sunday: Closed</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Trowers Modern Houses & Renovations. All rights reserved.</p>
+        <p>Created By: Rajay Trowers (rajaytrowers22@gmail.com)</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
