@@ -83,7 +83,7 @@ contactForm.addEventListener('submit', async (e) => {
   if (isValid) {
     try {
       const templateParams = {
-        to_email: 'rajaytrowers22@gmail.com',
+        to_email: 'Trowersrenovations@gmail.com',
         title: 'Contact Us',
         name: formData.get('name'),
         time: new Date().toLocaleString(),
